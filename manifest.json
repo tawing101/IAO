@@ -1,0 +1,17 @@
+{
+  "name": "suroyIAO | Siargao Guide",
+  "short_name": "suroyIAO",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#F0F4F8",
+  "theme_color": "#F0F4F8",
+  "description": "Live tide status, surf conditions, and local spots in General Luna.",
+  "icons": [
+    {
+      "src": "suroyiao-logo.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
