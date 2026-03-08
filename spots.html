@@ -7,8 +7,6 @@
     
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='28' fill='%23F0F9FF'/><circle cx='65' cy='38' r='16' fill='%23F59E0B'/><path d='M 20 58 Q 35 42 50 58 T 80 58' stroke='%230284C7' stroke-width='8' stroke-linecap='round' fill='none'/><path d='M 20 74 Q 35 58 50 74 T 80 74' stroke='%2338BDF8' stroke-width='8' stroke-linecap='round' fill='none'/></svg>">
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
-    
-    <!-- NO ADSENSE ON THIS PAGE - THIS AVOIDS THE NAVIGATION PENALTY -->
 
     <style>
         :root { --bg: #F0F4F8; --text: #2C5282; --light-text: #718096; --card-bg: #FFFFFF; --accent: #63B3ED; --border: #D1E1F0; --emer-text: #E53E3E; }
@@ -25,7 +23,6 @@
         .card { background: var(--card-bg); border-radius: 24px; padding: 2.2rem; box-shadow: 0 10px 30px rgba(44, 82, 130, 0.05); border: 1px solid var(--border); height: fit-content; }
         .card h2 { margin-top: 0; font-size: 0.85rem; border-bottom: 1.5px solid var(--bg); padding-bottom: 0.8rem; margin-bottom: 1.5rem; text-transform: uppercase; letter-spacing: 2px; color: var(--text); }
         
-        /* Live Conditions CSS moved here */
         .condition-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
         .condition-stat { background: var(--bg); padding: 1.5rem; border-radius: 16px; text-align: center; border: 1px solid var(--border); display: flex; flex-direction: column; justify-content: center;}
         .stat-label { font-size: 0.7rem; color: var(--light-text); text-transform: uppercase; display: block; margin-bottom: 6px; font-weight: 600; }
@@ -63,7 +60,6 @@
 
     <main class="container">
 
-        <!-- Live Conditions Section (Moved from index.html) -->
         <section class="card full-width" id="conditions">
             <h2>Live Ocean Intelligence</h2>
             <div class="condition-grid">
@@ -142,7 +138,6 @@
         </p>
     </footer>
 
-    <!-- JS Logic moved here for live conditions -->
     <script>
         window.onload = function() { fetchConditions(); };
         
@@ -188,3 +183,4 @@
     </script>
 </body>
 </html>
+
