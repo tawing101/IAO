@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
    
-   <!-- Main Guide Page: The landing hub for users -->
    <url>
       <loc>https://suroyiao.com/</loc>
       <lastmod>2026-03-07</lastmod>
@@ -9,7 +8,6 @@
       <priority>1.0</priority>
    </url>
 
-   <!-- About Page: The high-value editorial content for AdSense -->
    <url>
       <loc>https://suroyiao.com/about.html</loc>
       <lastmod>2026-03-07</lastmod>
@@ -17,7 +15,6 @@
       <priority>0.9</priority>
    </url>
 
-   <!-- Print Flyer: Utility tool for visitors -->
    <url>
       <loc>https://suroyiao.com/flyer.html</loc>
       <lastmod>2026-03-07</lastmod>
@@ -25,7 +22,6 @@
       <priority>0.7</priority>
    </url>
 
-   <!-- Privacy Policy: Required transparency for AdSense compliance -->
    <url>
       <loc>https://suroyiao.com/privacy.html</loc>
       <lastmod>2026-03-07</lastmod>
@@ -33,7 +29,6 @@
       <priority>0.3</priority>
    </url>
 
-   <!-- Terms of Service: Legal requirements for trust -->
    <url>
       <loc>https://suroyiao.com/terms.html</loc>
       <lastmod>2026-03-07</lastmod>
@@ -42,3 +37,4 @@
    </url>
 
 </urlset>
+
